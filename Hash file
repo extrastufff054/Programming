@@ -37,7 +37,7 @@ bool HashTable::isEmpty() const
     return false;
 }
 
-int HashTable::hashFunction(int key)
+int HashTable::hashFunction(int key) 
 {
     return key%hashGroups;
 }
