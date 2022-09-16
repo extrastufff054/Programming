@@ -56,7 +56,7 @@ void HashTable::InsertItem(int key, string value)
             bItr->second=value;
             cout<<"[Warning] Key exists. Value replaced"<<endl;
             break;
-        }
+        }      
     }
     if(!keyExists)
     {
